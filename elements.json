@@ -1,6 +1,7 @@
 var _Elements = {
     "elements": {
         "Headers": [
+            {"url": "elements/header.html", "height": 155, "thumbnail": "elements/thumbs/header.jpg"},
             {"url": "elements/001-001.html", "height": 80, "thumbnail": "elements/thumbs/001-001.jpg"},
             {"url": "elements/001-002.html", "height": 161, "thumbnail": "elements/thumbs/001-002.jpg"},
             {"url": "elements/001-003.html", "height": 141, "thumbnail": "elements/thumbs/001-003.jpg"},
@@ -45,6 +46,7 @@ var _Elements = {
             {"url": "elements/002-030.html", "height": 241, "thumbnail": "elements/thumbs/002-030.jpg"}
         ],
         "Content": [
+            {"url": "elements/content.html", "height": 980, "thumbnail": "elements/thumbs/custom.jpg"},
             {"url": "elements/003-001.html", "height": 580, "thumbnail": "elements/thumbs/003-001.jpg"},
             {"url": "elements/003-002.html", "height": 632, "thumbnail": "elements/thumbs/003-002.jpg"},
             {"url": "elements/003-003.html", "height": 580, "thumbnail": "elements/thumbs/003-003.jpg"},
