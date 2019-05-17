@@ -17,17 +17,6 @@
 		</div>
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="site-info container">
-				<?php if( of_get_option('footer_social') ) dazzling_social_icons(); ?>
-				<nav role="navigation" class="col-md-6">
-					<?php dazzling_footer_links(); ?>
-				</nav>
-				<div class="copyright col-md-6">
-					<?php echo of_get_option( 'custom_footer_text', 'dazzling' ); ?>
-					<?php dazzling_footer_info(); ?>
-				</div>
-			</div><!-- .site-info -->
-			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
 		</footer><!-- #colophon -->
 	</div>
 </div><!-- #page -->
