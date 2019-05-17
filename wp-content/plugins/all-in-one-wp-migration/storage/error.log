@@ -1,0 +1,24 @@
+May 17 2019 13:22:48
+{"Number":2,"Message":"preg_replace(): JIT compilation failed: no more memory","File":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-includes\/wp-db.php","Line":3215}
+
+May 17 2019 13:22:48
+{"Number":2,"Message":"preg_match(): JIT compilation failed: no more memory","File":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-includes\/wp-db.php","Line":3227}
+
+May 17 2019 13:22:48
+{"Number":2,"Message":"preg_replace(): JIT compilation failed: no more memory","File":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-includes\/wp-db.php","Line":3042}
+
+May 17 2019 13:22:48
+{"type":2,"message":"preg_replace(): JIT compilation failed: no more memory","file":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-content\/plugins\/wp-rocket\/inc\/vendors\/classes\/class-imagify-partner.php","line":780}
+
+May 17 2019 13:22:48
+{"Number":2,"Message":"preg_replace(): JIT compilation failed: no more memory","File":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-includes\/wp-db.php","Line":3042}
+
+May 17 2019 13:22:50
+{"Number":2,"Message":"preg_replace(): JIT compilation failed: no more memory","File":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-archiver.php","Line":189}
+
+May 17 2019 13:22:54
+{"Number":2,"Message":"preg_replace(): JIT compilation failed: no more memory","File":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database.php","Line":1241}
+
+May 17 2019 13:22:54
+{"Number":2,"Message":"preg_replace(): JIT compilation failed: no more memory","File":"\/Applications\/MAMP\/htdocs\/shopnaklik\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database.php","Line":1241}
+
