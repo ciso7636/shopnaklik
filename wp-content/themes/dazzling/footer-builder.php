@@ -9,7 +9,6 @@
 
 ?>
 
-<h2>Footer</h2>
   <!-- Load JS here for greater good =============================-->
   	<script src="<?php echo get_stylesheet_directory_uri(). '/builder/js/jquery-1.8.3.min.js'?>"></script>
     <script src="<?php echo get_stylesheet_directory_uri(). '/builder/js/jquery-ui.min.js'?>"></script>
