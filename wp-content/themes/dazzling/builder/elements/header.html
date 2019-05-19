@@ -2,7 +2,7 @@
   lang="sk-SK"
   class="js wf-roboto-n4-active wf-oxygen-n4-active wf-oxygen-n3-active wf-dancingscript-n4-active wf-active"
 >
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -70,6 +70,8 @@
                     class="nav nav-left medium-nav-center nav-small  nav-divided"
                   ></ul>
                 </div>
+                <!-- flex-col left -->
+
                 <div class="flex-col hide-for-medium flex-center">
                   <ul class="nav nav-center nav-small  nav-divided">
                     <li class="html custom html_topbar_left">
@@ -81,11 +83,15 @@
                     </li>
                   </ul>
                 </div>
+                <!-- center -->
+
                 <div class="flex-col hide-for-medium flex-right">
                   <ul
                     class="nav top-bar-nav nav-right nav-small  nav-divided"
                   ></ul>
                 </div>
+                <!-- .flex-col right -->
+
                 <div class="flex-col show-for-medium flex-grow">
                   <ul class="nav nav-center nav-small mobile-nav  nav-divided">
                     <li class="html custom html_topbar_left">
@@ -98,31 +104,37 @@
                   </ul>
                 </div>
               </div>
+              <!-- .flex-row -->
             </div>
+            <!-- #header-top -->
             <div id="masthead" class="header-main ">
               <div
                 class="header-inner flex-row container logo-left medium-logo-center"
                 role="navigation"
               >
+                <!-- Logo -->
                 <div id="logo" class="flex-col logo">
+                  <!-- Header logo -->
                   <a
-                    href="http://localhost:8888/template-shop/"
+                    href="http://templateshop.shopnaklik.sk/"
                     title="fashionforyou.sk - dámske oblečenie a móda"
                     rel="home"
                   >
                     <img
                       width="224"
                       height="82"
-                      src="http://localhost:8888/template-shop/wp-content/uploads/2019/02/logo.png"
+                      src="http://templateshop.shopnaklik.sk/wp-content/uploads/2019/02/logo.png"
                       class="header_logo header-logo"
                       alt="fashionforyou.sk"/><img
                       width="224"
                       height="82"
-                      src="http://localhost:8888/template-shop/wp-content/uploads/2019/02/logo.png"
+                      src="http://templateshop.shopnaklik.sk/wp-content/uploads/2019/02/logo.png"
                       class="header-logo-dark"
                       alt="fashionforyou.sk"
                   /></a>
                 </div>
+
+                <!-- Mobile Left Elements -->
                 <div class="flex-col show-for-medium flex-left">
                   <ul class="mobile-nav nav nav-left ">
                     <li class="nav-icon has-icon">
@@ -141,9 +153,11 @@
                     </li>
                   </ul>
                 </div>
+
+                <!-- Left Elements -->
                 <div
                   class="flex-col hide-for-medium flex-left
-              flex-grow"
+                         flex-grow"
                 >
                   <ul
                     class="header-nav header-nav-main nav nav-left  nav-uppercase"
@@ -159,7 +173,7 @@
                             role="search"
                             method="get"
                             class="searchform"
-                            action="http://localhost:8888/template-shop/"
+                            action="http://templateshop.shopnaklik.sk/"
                           >
                             <div class="flex-row relative">
                               <div class="flex-col flex-grow">
@@ -177,6 +191,7 @@
                                   value="product"
                                 />
                               </div>
+                              <!-- .flex-col -->
                               <div class="flex-col">
                                 <button
                                   type="submit"
@@ -185,7 +200,9 @@
                                   <i class="icon-search"></i>
                                 </button>
                               </div>
+                              <!-- .flex-col -->
                             </div>
+                            <!-- .flex-row -->
                             <div class="live-search-results text-left z-top">
                               <div
                                 class="autocomplete-suggestions"
@@ -198,29 +215,32 @@
                     </li>
                   </ul>
                 </div>
+
+                <!-- Right Elements -->
                 <div class="flex-col hide-for-medium flex-right">
                   <ul
                     class="header-nav header-nav-main nav nav-right  nav-uppercase"
                   >
                     <li
                       class="account-item has-icon
-              "
+                 "
                     >
                       <a
-                        href="http://localhost:8888/template-shop/my-account/"
+                        href="http://templateshop.shopnaklik.sk/my-account/"
                         class="nav-top-link nav-top-not-logged-in "
                         data-open="#login-form-popup"
                       >
-                        <span> Prihlásenie </span>
-                      </a>
+                        <span> Prihlásenie </span> </a
+                      ><!-- .account-login-link -->
                     </li>
                     <li class="header-divider"></li>
                     <li class="cart-item has-icon has-dropdown">
                       <a
-                        href="http://localhost:8888/template-shop/cart/"
+                        href="http://templateshop.shopnaklik.sk/cart/"
                         title="Košík"
                         class="header-cart-link is-small"
-                        ><span class="header-cart-title">
+                      >
+                        <span class="header-cart-title">
                           Košík /
                           <span class="cart-price"
                             ><span class="woocommerce-Price-amount amount"
@@ -230,8 +250,10 @@
                             ></span
                           >
                         </span>
+
                         <i class="icon-shopping-bag" data-icon-label="0"> </i>
                       </a>
+
                       <ul class="nav-dropdown nav-dropdown-default">
                         <li class="html widget_shopping_cart">
                           <div class="widget_shopping_cart_content">
@@ -241,6 +263,7 @@
                           </div>
                         </li>
                       </ul>
+                      <!-- .nav-dropdown -->
                     </li>
                     <li class="header-divider"></li>
                     <li class="html header-social-icons ml-0">
@@ -264,11 +287,13 @@
                     </li>
                   </ul>
                 </div>
+
+                <!-- Mobile Right Elements -->
                 <div class="flex-col show-for-medium flex-right">
                   <ul class="mobile-nav nav nav-right ">
                     <li class="cart-item has-icon">
                       <a
-                        href="http://localhost:8888/template-shop/cart/"
+                        href="http://templateshop.shopnaklik.sk/cart/"
                         class="header-cart-link off-canvas-toggle nav-top-link is-small"
                         data-open="#cart-popup"
                         data-class="off-canvas-cart"
@@ -277,6 +302,8 @@
                       >
                         <i class="icon-shopping-bag" data-icon-label="0"> </i>
                       </a>
+
+                      <!-- Cart Sidebar Popup -->
                       <div
                         id="cart-popup"
                         class="mfp-hide widget_shopping_cart"
@@ -298,10 +325,14 @@
                   </ul>
                 </div>
               </div>
+              <!-- .header-inner -->
+
+              <!-- Header divider -->
               <div class="container">
                 <div class="top-divider full-width"></div>
               </div>
             </div>
+            <!-- .header-main -->
             <div
               id="wide-nav"
               class="header-bottom wide-nav flex-has-center hide-for-medium"
@@ -371,9 +402,19 @@
                     </li>
                   </ul>
                 </div>
+                <!-- flex-col -->
               </div>
+              <!-- .flex-row -->
             </div>
+            <!-- .header-bottom -->
+
+            <div class="header-bg-container fill">
+              <div class="header-bg-image fill"></div>
+              <div class="header-bg-color fill"></div>
+            </div>
+            <!-- .header-bg-container -->
           </div>
+          <!-- header-wrapper-->
         </header>
       </div>
     </div>
