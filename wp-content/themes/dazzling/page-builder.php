@@ -63,7 +63,7 @@ get_header(builder); ?>
 
 </div><!-- /.menu -->
 
-<div class="container">
+<div class="container b">
 
 <header class="clearfix" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
 
@@ -73,8 +73,10 @@ get_header(builder); ?>
 
     <a href="#exportModal" id="exportPage" data-toggle="modal" class="btn btn-info btn-embossed pull-right disabled actionButtons"><span class="fui-export"></span> Export</a>
 
-    <a href="#" id="savePage" class="btn btn-primary btn-embossed pull-right disabled actionButtons"><span class="fui-check"></span> <span class="bLabel">Nothing new to save</span></a>
+    <a href="#" id="send" class="btn btn-primary btn-embossed pull-right actionButtons"><span class="fui-export"></span> <span class="fui-export">Send</span></a>
 
+    <a href="#" id="savePage" class="btn btn-primary btn-embossed pull-right disabled actionButtons"><span class="fui-check"></span> <span class="bLabel">Nothing new to save</span></a>
+    
     <div class="modes">
 
         <b>Building mode:</b>

@@ -225,6 +225,21 @@ function getRandomArbitrary(min, max) {
 
 var pendingChanges = false;
 
+function createWpContent() {
+    var htmlArray = [];
+    var iframes = $('#pageList iframe');
+    var contens = iframes.contents();
+
+    for (i = 0; i < iframes.length; i++) {
+        var html = $(contens[i]).find('#main-wrapper').children().html().trim();
+        var wpHtml = $(contens[i]).find('#wp-html').html().trim();
+        var title = $(contens[i]).find('#main-wrapper').children().attr('id').split('-')[0];
+        htmlArray.push({title: title, html: html, wpHtml: wpHtml});
+    }
+
+    return htmlArray;
+}
+
 function setPendingChanges(v) {
 
     if( v == true ) {
@@ -2044,6 +2059,9 @@ $(function(){
 
     });
 
+    $('#send').click(function(){
+        createWpContent();
+    });
 
     $('button#updateContentInFrameSubmit').click(function(){
 
